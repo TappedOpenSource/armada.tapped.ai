@@ -15,7 +15,7 @@ jobs:
         uses: armada-network/armada-release-action@v1
         id: armada
         with:
-          build_dir: "."
+          build_dir: build
           bundle_name: gm-${{ github.ref_name }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
